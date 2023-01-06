@@ -1,12 +1,15 @@
-#include "../headers/Dog.h"
+// #include "headers/Dog.h"
+#include "headers/Barker.h"
+
+using std::string;
 
 int main()
 {
     Dog d1("Siri", "Koira", 1);
     {
-        Dog d2;
+        Barker b1("Saga", "Koira", 2, 3000);
+        string name = b1.getName();
     }
 
-    std::cout << "Found " + d1.getName() << std::endl;
     return 0;
 }
