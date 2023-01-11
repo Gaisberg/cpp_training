@@ -2,10 +2,10 @@
 
 using std::string;
 
-Barker::Barker (string first, string last, 
+Barker::Barker (string first, string last, Breed breed,
         int id, int barkvolume) 
     :
-    Dog(first, last, id),
+    Dog(first, last, breed, id),
     volume(barkvolume)
 {
     std::cout << "Constructing barker with bark volume " << std::to_string(volume) << std::endl;

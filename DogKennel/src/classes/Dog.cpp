@@ -3,7 +3,7 @@
 using std::cout;
 using std::string;
 
-Dog::Dog(string first, string last, int id) : firstname(first), lastname(last), idnumber(id)
+Dog::Dog(string first, string last, Breed dog_breed, int id) : firstname(first), lastname(last), breed(dog_breed), idnumber(id)
 {
     cout << "Constructing object with name " + getName() << std::endl;
 }
@@ -22,4 +22,9 @@ Dog::~Dog()
 string Dog::getName()
 {
     return firstname + " " + lastname;
+}
+
+Breed Dog::getBreed()
+{
+    return breed;
 }

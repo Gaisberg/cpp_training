@@ -6,7 +6,7 @@ class Barker :
     private:
         int volume;
     public:
-        Barker(std::string first, std::string last,
+        Barker(std::string first, std::string last, Breed breed,
             int id, int barkvolume);
         ~Barker();
 };
