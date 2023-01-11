@@ -10,7 +10,7 @@
 			"path": "../HelloWorld"
 		},
 		{
-			"path": "../Functions"
+			"path": "."
 		}
 	],
 	"settings": {
