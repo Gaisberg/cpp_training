@@ -1,4 +1,5 @@
 #include <iostream>
+#include "headers/Thing.h"
 
 using std::cout;
 using std::cin;
@@ -37,7 +38,13 @@ int main(){
     else 
         cout << "The given number is _not_ a prime number!" << endl;
 
-    return 0;
+    switch(Thing t1 = Thing(1); t1.getI())
+    {
+        case 1:
+            cout << "Lets go, initialized an object in a switch!" << endl;
+            break;
+    }
 
+    return 0;
 }
 
