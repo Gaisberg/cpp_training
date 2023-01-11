@@ -45,6 +45,9 @@ int main(){
             break;
     }
 
+    // Immediate if "Elvis operator" syntax
+    int i = true? 0 : 1;
+    
     return 0;
 }
 
