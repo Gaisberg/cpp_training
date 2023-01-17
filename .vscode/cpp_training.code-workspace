@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../Templates"
+		},
+		{
+			"path": "../Indirection"
 		}
 	],
 	"settings": {
