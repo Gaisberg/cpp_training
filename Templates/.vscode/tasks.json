@@ -2,14 +2,15 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build Functions",
+            "label": "C/C++: g++.exe build Templates",
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${workspaceFolder}/src/*.cpp",
+                // "${workspaceFolder}/src/classes/*.cpp",
                 "-o",
-                "${workspaceFolder}/output/Functions.exe"
+                "${workspaceFolder}/output/Templates.exe"
             ],
             "problemMatcher": [
                 "$gcc"
